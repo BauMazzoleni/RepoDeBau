@@ -1,0 +1,93 @@
+.no-margin {
+  margin: 0;
+}
+.bgPrincipal {
+  background-image: url(../img/salto.jpg);
+  max-width: auto;
+}
+.letra {
+  font-size: 20px;
+  color: blanchedalmond;
+}
+@media (max-width: 480px) {
+  .bgPrincipal {
+    background-color: lightslategray;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+li {
+  padding: 20px;
+  margin: 10px 50px;
+}
+.logo {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.fb {
+  width: 30px;
+  height: 30px;
+}
+.wsp {
+  width: 30px;
+  height: 30px;
+}
+.ig {
+  width: 30px;
+  height: 30px;
+}
+.d-block {
+  height: 400px;
+  width: auto;
+  margin-top: 30px;
+}
+section h2 {
+  margin-top: 70px;
+  color: blanchedalmond;
+  text-align: center;
+  text-decoration: underline;
+}
+h4 {
+  margin-top: 60px;
+  text-align: center;
+}
+div h1 {
+  margin-left: 30px;
+}
+.clases {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.pie-nos {
+  margin-top: 250px;
+}
